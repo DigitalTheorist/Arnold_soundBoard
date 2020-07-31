@@ -9,10 +9,24 @@
 <h1>I'll Be Back.</h1>
 
 <div>
-    <button id="Ilied" onclick="playAudio()">I Lied</button>
-    <audio id="myAudio">
-        <source src="Assets/soundFiles/i-lied.mp3" type="audio/mp3">
-    </audio>
+    <div>
+        <button id="Ilied" onclick="playLied()">I Lied</button>
+        <audio id="lied">
+            <source src="Assets/soundFiles/i-lied.mp3" type="audio/mp3">
+        </audio>
+    </div>
+    <div>
+        <button id="askSomeQuestions" onclick="playAsk()">I'm going to ask you a bunch of questions</button>
+        <audio id="ask">
+            <source src="Assets/soundFiles/ask-ques.mp3" type="audio/mp3">
+        </audio>
+    </div>
+    <div>
+        <button id="Bastard!" onclick="playBastard()">Bastard!</button>
+        <audio id="bastard">
+            <source src="Assets/soundFiles/bastard.mp3" type="audio/mp3">
+        </audio>
+    </div>
 </div>
 
 
