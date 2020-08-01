@@ -2,9 +2,29 @@ body {
     background-color: lightblue;
 }
 
+#bannerBody {
+    margin: auto;
+    width: 90%;
+    height: 560px;
+    background-color: darkcyan;
+    padding: 20px;
+    background-image: url("../imageFiles/ill_be_back.jpg");
+}
+
+#banner {
+
+}
+
 #buttonDiv {
     margin: auto;
+    margin-top: 10px;
     width: 50%;
     border: 3px solid green;
     padding: 10px;
+    border-radius: 10px;
+}
+
+.buttonStyle {
+    margin: auto;
+    margin-top: 5px;
 }
